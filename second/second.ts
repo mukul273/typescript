@@ -1,6 +1,6 @@
-const character = 'mario';
+const name = 'Luigi';
 
-console.log(character);
+console.log(name);
 
 const inputs = document.querySelectorAll('input');
 
