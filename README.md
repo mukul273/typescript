@@ -9,10 +9,11 @@
 7. `?` - desinates optional property,
 8. once declared the object, you have to set all the prorps, can't skip it unless there is a `?` character in the definition,
 9. `Objects` can be reassigned with different similar data types see [this](./fifth/fifth.ts),
-10. 
+10. `tsc --init` - to initialize a typescript project which will generate a tsconfig,
+11. make sure you edit the tsconfig and set `outDir` and `rootDir` and also add
+  `"include": ["src"]` after 'compilerOptions' construct,
 
-
-### References
+***References***
 
 1. [Typescript Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9gUgr39Q_yD6v-bSyMwKPUI)
 2. [Github source](https://github.com/iamshaunjp/typescript-tutorial/)
