@@ -8,10 +8,12 @@
 6. Most files contain self explanatory code, Please try to uncomment the code for better understanding and try to compile and you should get an error why the code will not work and why it's commented,
 7. `?` - desinates optional property,
 8. once declared the object, you have to set all the prorps, can't skip it unless there is a `?` character in the definition,
-9. `Objects` can be reassigned with different similar data types see [this](./fifth/fifth.ts),
+9. `Objects` can be reassigned with different similar data types see [this](./005/fifth.ts),
 10. `tsc --init` - to initialize a typescript project which will generate a tsconfig,
-11. make sure you edit the tsconfig and set `outDir` and `rootDir` and also add
-  `"include": ["src"]` after 'compilerOptions' construct,
+11. make sure you edit the tsconfig and set `outDir` and `rootDir` and also add `"include": ["src"]` after 'compilerOptions' construct,
+12. Refer [tenth](./010/), - adding **!** at the end of line no. 3 and being certain that anchor exists then we don't need to check if the anchor exists, try removing it,
+13. 
+
 
 ***References***
 
