@@ -12,7 +12,10 @@
 10. `tsc --init` - to initialize a typescript project which will generate a tsconfig,
 11. make sure you edit the tsconfig and set `outDir` and `rootDir` and also add `"include": ["src"]` after 'compilerOptions' construct,
 12. Refer [tenth](./010/), - adding **!** at the end of line no. 3 and being certain that anchor exists then we don't need to check if the anchor exists, try removing it,
-13. 
+13. `public` is default access modifier even if we don't mention it,
+14. `private` modifier is accessible in class but not outside the class, check [this](./013/src/app.ts) file for privare variable in class, try uncommenting and you should see an error, but they are accessible via the public method in the class,
+15. `read only` are non modifiable variables, **even in the class** try modifying the values of the readonly variable in [this](./013/src/app.ts) file,
+16. 
 
 
 ***References***
