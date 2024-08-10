@@ -15,7 +15,10 @@
 13. `public` is default access modifier even if we don't mention it,
 14. `private` modifier is accessible in class but not outside the class, check [this](./013/src/app.ts) file for privare variable in class, try uncommenting and you should see an error, but they are accessible via the public method in the class,
 15. `read only` are non modifiable variables, **even in the class** try modifying the values of the readonly variable in [this](./013/src/app.ts) file,
-16. 
+16. change the "module" prop in tsconfig to "ES2015" from "commonjs",
+17. change target to "ES2023" in tsconfig,
+18. Make sure that the `script` tag has `type="module"` included in the tag params,
+19. 
 
 
 ***References***
