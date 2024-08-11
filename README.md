@@ -18,10 +18,12 @@
 16. change the "module" prop in tsconfig to "ES2015" from "commonjs",
 17. change target to "ES2023" in tsconfig,
 18. Make sure that the `script` tag has `type="module"` included in the tag params,
-19. 
+19. Difference between tuple and array is that once defined tuples data types and positions can't be changed at runtime, as opposed to we can change the datatypes and positions of values added to array back and forth,
 
 
 ***References***
 
-1. [Typescript Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9gUgr39Q_yD6v-bSyMwKPUI)
-2. [Github source](https://github.com/iamshaunjp/typescript-tutorial/)
+1. [TypeScript](https://www.typescriptlang.org/)
+2. [Typescript Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9gUgr39Q_yD6v-bSyMwKPUI)
+3. [github](https://github.com/mukul273/typescript)
+4. [Github source](https://github.com/iamshaunjp/typescript-tutorial/)
